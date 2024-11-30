@@ -11,7 +11,7 @@ from features.pages.LoginPage import LoginPage
 def step_impl(context):
     context.login_page = LoginPage(context.driver)
     context.login_page.username("standard_user")
-    #context.driver.find_element(By.ID, "user-name").send_keys("standard_user")
+    #context.driver.find_element(By.ID, "user-name").send_keys("standard_user")h
 
 
 @when(u'provide valid password')
